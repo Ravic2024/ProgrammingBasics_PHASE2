@@ -4,7 +4,7 @@ public class Find_maximum_and_minimum {
 
     static void main() {
 
-        int[] arr = {10,4,70,40,30,8};
+        int[] arr = {5,10,7,2,1,6};
 
         int MAX = arr[0];
         int MIN = arr[0];
@@ -19,5 +19,6 @@ public class Find_maximum_and_minimum {
         }
         System.out.println(MAX);
         System.out.println(MIN);
+
    }
 }

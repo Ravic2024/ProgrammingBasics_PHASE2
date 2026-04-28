@@ -5,25 +5,23 @@ public class Insert_into_a_position_by_shifting {
 
     static void main() {
 
-        int[] arr = {10,20,30,40};
-        int value = 25;
-        int position = 2;
-        int[] result = new int[arr.length + 1];
+      int[] arr = {10,20,30,40,50};
+      int[] newArry = new int[arr.length + 1];
+      int value = 25;
+      int position = 2;
 
-        for(int i = 0; i < position; i++) {
-            result[i] = arr[i];
-        }
+      for(int i = 0; i < position; i++) {
+          newArry[i] = arr[i];
+      }
 
-        result[position] = value;
+      newArry[position] = value;
 
-        for(int i = position; i < arr.length; i++) {
-            result[i+1] = arr[i];
-        }
-
-        for(int n : result) {
+      for(int i = position; i < arr.length; i++) {
+          newArry[i+1] = arr[i];
+      }
+        for(int n: newArry) {
             System.out.print(n+" ");
         }
-
     }
 
 
