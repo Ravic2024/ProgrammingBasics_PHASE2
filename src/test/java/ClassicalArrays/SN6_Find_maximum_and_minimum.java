@@ -1,10 +1,10 @@
 package ClassicalArrays;
 
-public class Find_maximum_and_minimum {
+public class SN6_Find_maximum_and_minimum {
 
     static void main() {
 
-        int[] arr = {5,10,7,2,1,6};
+        int[] arr = {4,10,6,3,8,14,5,2};
 
         int MAX = arr[0];
         int MIN = arr[0];
@@ -19,6 +19,5 @@ public class Find_maximum_and_minimum {
         }
         System.out.println(MAX);
         System.out.println(MIN);
-
    }
 }

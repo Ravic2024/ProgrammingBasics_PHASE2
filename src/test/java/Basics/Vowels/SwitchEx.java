@@ -6,8 +6,8 @@ public class SwitchEx {
         String word = "Automation";
         int count = 0;
 
-        for(char ch : word.toLowerCase().toCharArray()){
-            switch(ch){
+        for(char ch : word.toLowerCase().toCharArray()) {
+            switch(ch) {
                 case 'a':
                 case 'e':
                 case 'i':
@@ -18,15 +18,4 @@ public class SwitchEx {
         }
         System.out.println(count);
     }
-
-
-
-
-
-
-
-
-
-
-
 }

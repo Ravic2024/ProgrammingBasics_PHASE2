@@ -8,10 +8,9 @@ public class SetContains {
     static void main() {
         String word = "Automation";
         int count = 0;
-        char[] chars = word.toLowerCase().toCharArray();
         Set<Character> vowels = Set.of('a','e','i','o','u');
 
-        for(char ch : chars) {
+        for(char ch : word.toLowerCase().toCharArray()) {
             if(vowels.contains(ch)) {
                 count++;
             }

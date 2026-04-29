@@ -1,6 +1,6 @@
 package ClassicalArrays;
 
-public class Traversing_An_Array {
+public class SN1_Traversing_An_Array {
 
     static void main() {
 
@@ -9,6 +9,5 @@ public class Traversing_An_Array {
         for(int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
         }
-
     }
 }

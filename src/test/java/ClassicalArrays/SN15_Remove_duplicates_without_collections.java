@@ -1,21 +1,13 @@
 package ClassicalArrays;
 
-public class Compare_two_arrays {
+public class SN15_Remove_duplicates_without_collections {
+
 
     static void main() {
 
 
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
